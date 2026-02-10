@@ -168,11 +168,6 @@ function Learn() {
               transition={{ duration: 0.8 }}
             >
               <div className="flex-1 relative">
-                {featuredCourses[carouselIndex].trending && (
-                  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-[#F4C430] to-[#FFD966] text-[#0F3D2E] px-4 py-1 rounded-full font-bold text-sm shadow-md z-10">
-                    Trending
-                  </div>
-                )}
                 <h3 className="text-2xl font-bold mb-2">
                   {featuredCourses[carouselIndex].title}
                 </h3>
